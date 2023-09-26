@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="H8%L)Ump^7.irOL!*#.B">Player</variable><variable type="KIND_SpriteKind" id="_Z+71TjNuLB3g[PC;,V2">Projectile</variable><variable type="KIND_SpriteKind" id="A[.r!9+zVYG2`w-5oe[/">Food</variable><variable type="KIND_SpriteKind" id="DIcy5nU;7f]:oiK!/JQp">Enemy</variable><variable id="3S/l[fd!*0zm9#hVmn`|">MUM</variable><variable id="Z3!(jnvb-pz.yW.x-;(K">mySprite</variable></variables><block type="pxt-on-start" id="x3mNJ+A+M:a,a*1zO[Y@" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="6X;SFZdM;bO_#A$S!4%F"><field name="VAR" id="3S/l[fd!*0zm9#hVmn`|">MUM</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="CU!iKC6u+4Avg/lStndd"><value name="img"><shadow type="screen_image_picker" id="+5XHzzF(t`uUB{bW@P!`"><field name="img">img`
+. . . . . f f 4 4 f f . . . . . 
+. . . . f 5 4 5 5 4 5 f . . . . 
+. . . f e 4 5 5 5 5 4 e f . . . 
+. . f b 3 e 4 4 4 4 e 3 b f . . 
+. . f 3 3 3 3 3 3 3 3 3 3 f . . 
+. f 3 3 e b 3 e e 3 b e 3 3 f . 
+. f 3 3 f f e e e e f f 3 3 f . 
+. f b b f b f e e f b f b b f . 
+. f b b e 1 f 4 4 f 1 e b b f . 
+f f b b f 4 4 4 4 4 4 f b b f f 
+f b b f f f e e e e f f f b b f 
+. f e e f b d d d d b f e e f . 
+. . e 4 c d d d d d d c 4 e . . 
+. . e f b d b d b d b b f e . . 
+. . . f f 1 d 1 d 1 d f f . . . 
+. . . . . f f b b f f . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"+5XHzzF(t`uUB{bW@P!`"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="-cdPCm!K76m4*=~P1zG`"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="KjQvh+6{!T{!qQZ-eFsR"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="J(mNBcVU+NaOV7Wt(8fz"><field name="VAR" id="3S/l[fd!*0zm9#hVmn`|">MUM</field></block></value><value name="text"><shadow type="text" id="klI`6`r2v#gBDRwjla9F"><field name="TEXT">IM HAVING A BABY HELPPPPPPPPPPPPPP IM IN LABOR HELPPPPPP</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="u7QHxLWSH%VjvRmVW?:P"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="OUMPvSx{bmzJVrVK#`+u"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
